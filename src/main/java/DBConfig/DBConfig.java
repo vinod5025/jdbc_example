@@ -10,7 +10,7 @@ import org.springframework.jdbc.datasource.DriverManagerDataSource;
 public class DBConfig {
 	@Bean("dataSource")
 	public DriverManagerDataSource getDataSource() {
-		return new DriverManagerDataSource("jdbc:mysql://localhost:3306/vinod", "root", "vinod");
+		return new DriverManagerDataSource("jdbc:mysql://localhost:3306/aud2025", "root", "AtulPatil@2002");
 	}
 @Bean("template")
 	public JdbcTemplate getTemplate() {
